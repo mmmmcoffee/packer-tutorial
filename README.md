@@ -1062,5 +1062,5 @@ Congratulations! You're done! You've just written a Windows packer!
 ## Further exercises
 
 * **Attack the analyst**: Learn to implement [some anti-debug techniques](https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf) and harden your packer.
-* **Expand your support**: Learn to implement a non-relocatable binary, or learn to implement further directories such as the thread-local storage directory (`IMAGE_TLS_DIRECTORY`) and the resource directory (`IMAGE_RESOURCE_DIRECTORY`). Since documentation is lacking at this level, you can see my implementations in [exe-rs](https://github.com/exe-rs).
+* **Expand your support**: Learn to implement a non-relocatable binary, or learn to implement further directories such as the thread-local storage directory (`IMAGE_TLS_DIRECTORY`) and the resource directory (`IMAGE_RESOURCE_DIRECTORY`). Since documentation is lacking at this level, you can see my implementations in [exe-rs](https://github.com/frank2/exe-rs).
 * **Obfuscate your stub**: Try to figure out how the analyst is going to unpack your binary and prevent ease of unpacking, such as [erasing the headers](https://github.com/frank2/packer-tutorial/blob/main/stub/src/main.cpp#L84).
